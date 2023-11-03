@@ -33,19 +33,19 @@ namespace Tyuiu.ChebulaevAG.Sprint4.Task0.V24
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int[] array = { 9, 5, 7, 4, 5, 3, 7, 8, 9, 1 };
+            int[] numsArray = { 9, 5, 7, 4, 5, 3, 7, 8, 9, 1 };
             
             Console.WriteLine("Исходный массив:");
-            for (int i = 0; i<=array.Length - 1; i++)
+            for (int i = 0; i<= numsArray.Length - 1; i++)
             {
-                Console.WriteLine(array[i]);
+                Console.WriteLine(numsArray[i]);
             }
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            int res = ds.GetMultEvenArrEl(array);
+            int res = ds.GetMultEvenArrEl(numsArray);
             Console.WriteLine("Произведение четных элементов массива = " + res);
 
             Console.ReadKey();

@@ -12,17 +12,17 @@ namespace Tyuiu.ChebulaevAG.Sprint4.Task1.V1.Lib
     {
         public int Calculate(int[] array)
         {
-            int res = 0;
+            int sumArray = 0;
 
-            foreach (var num in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                if (num % 2 == 0)
+                if (array[i] % 2 == 0)
                 {
-                    res += num;
+                    sumArray += array[i];
                 }
             }
 
-            return res;
+            return sumArray;
         }
     }
 }

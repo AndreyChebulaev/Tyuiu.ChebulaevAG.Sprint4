@@ -12,17 +12,17 @@ namespace Tyuiu.ChebulaevAG.Sprint4.Task0.V24.Lib
     {
         public int GetMultEvenArrEl(int[] array)
         {
-            int res = 1;
+            int sumArray = 1;
 
-            foreach (var num in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                if (num % 2 == 0)
+                if (array[i] % 2 == 0)
                 {
-                    res *= num;
+                    sumArray *= array[i];
                 }
             }
 
-            return res;
+            return sumArray;
         }
     }
 }
