@@ -19,7 +19,7 @@ namespace Tyuiu.ChebulaevAG.Sprint4.Task2.V30
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Одномерные массивы. (ввод с клавиатуры)                           *");
+            Console.WriteLine("* Тема: Одномерные массивы. (генератор случайных чисел)                   *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #30                                                             *");
             Console.WriteLine("* Выполнил: Чебулаев Андрей Геннадьевич | РПСб-23-1                       *");
